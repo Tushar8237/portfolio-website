@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
-import cv from "../../cv/Resume1.pdf";
+import cv from "../../cv/resume.tushar.pdf";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { FaHackerrank } from "react-icons/fa";
