@@ -1,43 +1,44 @@
 import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { BsInfoCircleFill } from "react-icons/bs";
-import ImageOne from "../../images/image1.png";
-import ImageTwo from "../../images/image2.png";
-import ImageThree from "../../images/image3.png";
-import ImageFour from "../../images/image4.png";
-import ImageFive from "../../images/image5.png";
 import "./styles.scss";
 import { useState } from "react";
+import food from "../../images/food-delivery.png"
+import notes from "../../images/notes.png"
+import blog from "../../images/blog.jpg"
+import todo from "../../images/todo.png"
+import shopping from "../../images/shopping.jpg"
+
 
 const portfolioData = [
   {
     id: 1,
     name: "Food Delivery",
-    image: ImageOne,
+    image: food,
     link: "https://mern-food-delivery.onrender.com/",
   },
   {
     id: 2,
     name: "Notes App",
     link: "",
-    image: ImageTwo,
+    image: notes,
   },
   {
     id: 3,
-    name: "Supplier Design",
-    image: ImageThree,
+    name: "Blog App",
+    image: blog,
     link: "",
   },
   {
     id: 4,
     name: "Todo App",
-    image: ImageFour,
+    image: todo,
     link: "",
   },
   {
     id: 3,
     name: "Shopping cart design",
-    image: ImageFive,
+    image: shopping,
     link: "",
   },
 ];

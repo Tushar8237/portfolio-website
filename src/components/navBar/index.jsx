@@ -30,7 +30,7 @@ const data = [
 ];
 
 const Navbar = () => {
-  const [activeLink, setActiveLink]= useState(1)
+  const [activeLink, setActiveLink]= useState(0)
 
   const handleActiveLink = (index) => {
     setActiveLink(index)

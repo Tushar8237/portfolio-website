@@ -53,11 +53,10 @@
             height: 100%;
 
             img {
-              // height: inherit;
               object-fit: cover;
               width: 100%;
               border-radius: 1rem;
-
+              height: 250px;
             }
           }
         }
@@ -89,6 +88,7 @@
                     position: relative;
                     overflow: hidden;
                     white-space: nowrap;
+                    // animation: typingEffect 1s steps(30,end);
                     animation: typingEffect 1s steps(30,end);
                     font-family: "Roboto", sans-serif;
 
