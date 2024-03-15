@@ -10,9 +10,12 @@ import Portfolio from "./containers/portfolio";
 import Contact from "./containers/contact";
 import Navbar from "./components/navBar";
 import particles from "./utils/particles";
+import { inject } from '@vercel/analytics';
 
 function App() {
   const location = useLocation();
+
+  inject()
 
   const handleInit = async (main) => {
     await loadFull(main);

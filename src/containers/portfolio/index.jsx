@@ -19,9 +19,9 @@ const portfolioData = [
   },
   {
     id: 2,
-    name: "Notes App",
-    link: "",
+    name: "Mern Auth",
     image: notes,
+    link: "https://mern-authentication-tonz.onrender.com/",
   },
   {
     id: 3,
