@@ -16,12 +16,12 @@ const data = [
     to: "/skills",
   },
   {
-    label: "RESUME",
-    to: "/resume",
-  },
-  {
     label: "PORTFOLIO",
     to: "/portfolio",
+  },
+  {
+    label: "RESUME",
+    to: "/resume",
   },
   {
     label: "CONTACT",
@@ -35,9 +35,7 @@ const Navbar = () => {
   const handleActiveLink = (index) => {
     setActiveLink(index)
   }
-
-  console.log(activeLink)
-
+  
   return (
     <nav className="navbar">
       <div className="navbar__container">

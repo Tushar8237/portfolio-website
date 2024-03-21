@@ -50,7 +50,7 @@ const Resume = () => {
                 {/* <p className="vertical-timeline-element-title-wrapper-description">{item.description} </p> */}
                 <ul className="vertical-timeline-element-title-wrapper-description">
                   {item.description.map((x, index) => (
-                    <li>
+                    <li key={index}>
                       <span>
                         <FaArrowRight size={15}/>
                       </span>{" "}
