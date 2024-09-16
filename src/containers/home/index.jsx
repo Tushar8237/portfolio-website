@@ -21,7 +21,7 @@ const Home = () => {
         <h1>
           Hello, I'm Tushar
           <br />
-          Front end developer
+          Web developer
         </h1>
       </div>
       <Animate
